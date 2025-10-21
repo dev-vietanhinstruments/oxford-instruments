@@ -55,7 +55,7 @@ export default function Header() {
 						<Link
 							className='text-sm text-white hidden xs:block'
 							href='tel:0937998390'>
-							Hotline: 0916-424-731
+							Hotline: 0937998390
 						</Link>
 					</div>
 				</header>

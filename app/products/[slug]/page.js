@@ -38,7 +38,9 @@ export default function Page({ params }) {
 	const theme = darkThemeIds.includes(id) ? 'dark' : 'light'
 
 	const product = PRODUCTS.find((product) => product.id === id)
-	const pros = product.pros ?? []
+	const prosRaw = product.pros ?? []
+	const pros = Array.isArray(prosRaw) ? prosRaw : null
+	const prosMarkdown = typeof prosRaw === 'string' ? prosRaw : ''
 	const specification = product.specification ?? ''
 	const documents = product.documents
 	const assets = product.assets ?? []
@@ -150,7 +152,7 @@ export default function Page({ params }) {
 						/>
 					))}
 				</Section>
-				{pros.length ? (
+				{(pros && pros.length) ? (
 					<Section>
 						<Section.Heading>Ưu điểm</Section.Heading>
 						{pros.map((pro, index) => {
@@ -185,6 +187,13 @@ export default function Page({ params }) {
 								</Section.Detail>
 							)
 						})}
+					</Section>
+				) : prosMarkdown ? (
+					<Section>
+						<Section.Heading>Ưu điểm</Section.Heading>
+						<Section.Subtext className='mb-0'>
+							<RenderMarkdownBlock content={prosMarkdown} />
+						</Section.Subtext>
 					</Section>
 				) : null}
 				{specification ? (
