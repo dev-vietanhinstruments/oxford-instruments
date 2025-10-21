@@ -33,7 +33,7 @@ export async function generateStaticParams() {
 export default function Page({ params }) {
 	const id = params.slug.split('-p.')[1]
 
-	const darkThemeIds = ['1', '2', '5']
+	const darkThemeIds = ['1', '2', '5', '6']
 
 	const theme = darkThemeIds.includes(id) ? 'dark' : 'light'
 

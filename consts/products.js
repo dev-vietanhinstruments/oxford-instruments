@@ -318,4 +318,70 @@ export const PRODUCTS = [
 			},
 		],
 	},
+	{
+		id: '6',
+		name: 'Máy Cộng Hưởng Từ Hạt Nhân X-Pulse 90',
+		image: '/products/x-pulse-90.png',
+		shortDesc:
+			'X-Pulse 90 là máy cộng hưởng từ hạt nhân (NMR) để bàn đầu tiên tích hợp phổ 90 MHz',
+		industries: [
+			'Nông nghiệp thực phẩm',
+			'Hóa chất',
+			'Pin',
+			'Dược phẩm',
+			'Nhựa',
+		],
+		intro: 'X-Pulse 90 là máy cộng hưởng từ hạt nhân (NMR) để bàn đầu tiên tích hợp phổ 90 MHz, mang đến hiệu suất vượt trội cho nhiều ứng dụng nghiên cứu, phát triển và kiểm soát chất lượng. Với thiết kế thông minh, linh hoạt cùng khả năng phân tích đa hạt nhân, X-Pulse 90 không chỉ nâng cao độ chính xác trong thí nghiệm mà còn tái định nghĩa chuẩn mực cho các thiết bị NMR để bàn hiện đại.',
+		introBg: '/intro/x-pulse.png',
+		desc: 'X-Pulse 90 kế thừa triết lý thiết kế của dòng X-Pulse với ba yếu tố cốt lõi: tính mô-đun, tính linh hoạt và khả năng nâng cấp, cho phép thiết bị dễ dàng tùy chỉnh theo nhu cầu nghiên cứu và phát triển. Người dùng có thể tích hợp flow cell để theo dõi phản ứng hóa học theo thời gian thực, bổ sung tùy chọn kiểm soát nhiệt độ biến thiên nhằm mở rộng phạm vi ứng dụng, hoặc thay đổi đầu dò có thể hoán đổi để tối ưu tỷ số tín hiệu/nhiễu (SNR) hay phục vụ phân tích đa hạt nhân. Thiết kế thông minh này không chỉ giúp máy NMR để bàn X-Pulse 90 dễ dàng cấu hình theo mục tiêu thí nghiệm, mà còn thuận tiện cho việc vệ sinh, bảo trì, đảm bảo hiệu suất ổn định và lâu dài.',
+		pros: [
+			{
+				title: '1. Băng thông rộng và đa hạt nhân',
+				desc: 'Khả năng băng thông rộng cho phép đo được số lượng hạt nhân nhiều nhất trên một máy NMR để bàn mà không làm giảm độ nhạy.',
+			},
+			{
+				title: '2. Dải nhiệt độ biến thiên',
+				desc: 'Tùy chọn dải nhiệt độ biến thiên rộng từ 0–60°C, giúp người dùng nghiên cứu chuyên sâu về động học phản ứng hoặc đặc tính của chất điện giải.',
+			},
+			{
+				title: '3. Hướng khuếch tán gradient cho dòng chảy',
+				desc: 'Hướng khuếch tán gradient tối ưu, đảm bảo phép đo chính xác ngay cả trong các thí nghiệm dòng chảy.',
+			},
+			{
+				title: '4. Đầu dò thay thế bởi người dùng',
+				desc: 'Đầu dò có thể thay thế bởi người dùng, mang lại sự linh hoạt tối đa mà không ảnh hưởng đến độ nhạy.',
+			},
+			{
+				title: '5. Đầu dò tháo rời dễ dàng',
+				desc: 'Đầu dò tháo rời dễ dàng, giảm thiểu tối đa thời gian ngừng máy khi có sự cố tràn đổ hoặc hỏng hóc.',
+			},
+		],
+			specification: `X-Pulse 90 là hệ thống NMR để bàn 90 MHz duy nhất trên thế giới có khả năng băng thông rộng. Thiết bị cho phép điều chỉnh để phân tích nhiều loại hạt nhân khác nhau chỉ với một hệ thống duy nhất.
+
+Độ phân giải: <0,35 Hz (50%) / <15 Hz (0,55%)
+
+Độ nhạy: 240:1 với 1% Ethyl Benzene
+
+Kênh X: điều chỉnh đầy đủ từ ²⁹Si – ³¹P (38 hạt nhân có thể đo)
+
+Gradient từ trường xung chuẩn: >0,5 T/m
+
+Không cần cryogen (heli/nitơ lỏng)
+
+Thích hợp cho mọi cấp độ người dùng
+
+Ống NMR chuẩn 5 mm OD
+
+Phụ kiện tùy chọn:
+
+- Kiểm soát nhiệt độ biến thiên (0 – 60°C)
+- Flow NMR option (đo trong dòng chảy)
+- X-Auto: bộ nạp mẫu tự động 25 vị trí`,
+		documents: [
+			{
+				title: 'X-Pulse 90 Brochure',
+				href: 'https://vietanh.vn/wp-content/uploads/2025/08/X-Pulse_90_Brochure.pdf',
+			},
+		],
+	},
 ]
