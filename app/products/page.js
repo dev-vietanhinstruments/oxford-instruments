@@ -46,7 +46,7 @@ export default function Products() {
 						(petrophysics), GeoSpec là tiêu chuẩn ngành cho phân
 						tích lõi đá.
 					</Section.Subtext>
-					<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-6'>
+					<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8'>
 						{PRODUCTS.map((product, index) => {
 							const productPath = `/products/${toLowerCaseNonAccentVietnamese(
 								product.name
