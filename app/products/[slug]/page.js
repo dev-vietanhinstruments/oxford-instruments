@@ -90,7 +90,7 @@ export default function Page({ params }) {
 							</div>
 							<div className='flex flex-row gap-6 items-center'>
 								<Button
-									href='tel:0916424731'
+									href='tel:0937998390'
 									className={`w-full md:w-fit px-5 text-center font-bold ${
 										theme === 'light'
 											? 'text-white'
@@ -121,7 +121,7 @@ export default function Page({ params }) {
 											? 'text-primary'
 											: 'text-white'
 									}`}>
-									0916 424 731
+									0937998390
 								</span>
 							</div>
 						</div>

@@ -33,18 +33,17 @@ export default function Page() {
 						</h4>
 						<p>
 							<Link href='https://maps.app.goo.gl/iDS3PyH7ipczgTDs6'>
-								11A Nguyễn An, P. Thạnh Mỹ Lợi, Tp. Thủ Đức,
-								Tp.HCM
+								11A Nguyễn An, Khu phố 4, P. Cát Lái, Tp. HCM
 							</Link>
 						</p>
 						<p>
 							Hotline:{' '}
-							<Link href='tel:0916424731'>0916 424 731</Link>
+							<Link href='tel:0937998390'>0937998390</Link>
 						</p>
 						<p>
 							Email:{' '}
-							<Link href='mailto:va@vietanh.vn'>
-								va@vietanh.vn
+							<Link href='mailto:loan.ht@hunterlab.vn'>
+								loan.ht@hunterlab.vn
 							</Link>
 						</p>
 					</div>
@@ -52,18 +51,17 @@ export default function Page() {
 						<h4 className='font-semibold mb-2'>Chi nhánh Hà Nội</h4>
 						<p>
 							<Link href='https://maps.app.goo.gl/Qr7NrhRN1EY9bEeU7'>
-								P808, 8/F, Viwaseen Building 48 Tố Hữu, P. Trung
-								Văn, Q. Nam Từ Liêm, Hà Nội
+								P808, 8/F, Viwaseen Building 48 Tố Hữu, P. Đại Mỗ, Tp. Hà Nội
 							</Link>
 						</p>
 						<p>
 							Hotline:{' '}
-							<Link href='tel:0916424731'>0916 424 731</Link>
+							<Link href='tel:0937998390'>0937998390</Link>
 						</p>
 						<p>
 							Email:{' '}
-							<Link href='mailto:va@vietanh.vn'>
-								va@vietanh.vn
+							<Link href='mailto:loan.ht@hunterlab.vn'>
+								loan.ht@hunterlab.vn
 							</Link>
 						</p>
 					</div>
